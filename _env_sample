@@ -1,0 +1,8 @@
+TELEGRAM_BOT_TOKEN  = ''
+SERVER_PROTO        = ''
+SERVER_URL          = ''
+SERVER_PORT         = ''
+SERVER_PATH         = ''
+SECRET_TOKEN        = ''
+ALLOWED_CHATID      = ''
+ALLOWED_USERS       = ''
