@@ -20,6 +20,20 @@ Optional steps (you might do this later):
 - change privacy setting with `/setprivacy` (to receive all messages)
 - set bot commands in @botfather with `/setbotcommands`
 
+## Tests and Raw usage:
+You might not need to use a full bot, for example if you just need to use the bot as a broacaster for messages in a channel or group.
+In those cases all you need is the `chat-id`
+
+To get the `chat-id`:
+- create the group or channel
+- add the bot to group or channel
+- make sure bot is **admin**
+- send a message in the group/channel
+- go to this url:
+  ```
+  https://api.telegram.org/bot<YourBOTToken>/getUpdates
+  ```
+- grab the JSON of the message the bot received and extract the value of `chat-id` from there  
 
 ## Install Project
 - clone project on server
